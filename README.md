@@ -1,33 +1,35 @@
-# e-commerce-v2
+## Tentang Project
 
-This template should help get you started developing with Vue 3 in Vite.
+Antarmuka platform e-commerce berbasis web untuk memudahkan pelanggan dalam berbelanja. Dikembangkan dengan menggunakan **Vue.js** dan **Tailwind CSS** untuk memastikan tampilan yang responsif dan modern. Menggunakan backend yang dibangun menggunakan **Laravel** dan terintegrasi dengan RajaOngkir untuk manajemen pengiriman dan Midtrans untuk manajemen pembayaran untuk memudahkan pelanggan dalam berbelanja. Backend dapat dilihat disini [E-commerce Backend](https://github.com/Yoga-Firmansyah/E-Commerce/tree/main/backend)
+### Beberapa Fitur yang tersedia:
+    - Daftar produk yang tersedia
+    - Detail produk
+    - Keranjang belanja
+    - Checkout
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Instalasi
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+1. **Clone repository**  
+   ```bash
+   git clone https://github.com/Yoga-Firmansyah/e-commerce-v2.git
+   cd e-commerce-v2
+   ```
+2. **Install dependency**  
+   ```bash
+   npm install
+   ```
+3. **Ubah URL API sesuai dengan url API kamu**  
+   Buka file `axios.ts` dan ubah `axios.defaults.baseURL` sesuai dengan url API kamu
+   ```bash
+   axios.defaults.baseURL = 'Your_API_URL'
+   ```
+4. **Jalankan**  
+   Untuk development
+   ```bash
+   npm run dev
+   ```
+   Untuk production
+   ```bash
+   npm run build
+   ```
