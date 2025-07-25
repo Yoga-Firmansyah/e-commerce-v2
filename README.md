@@ -1,3 +1,5 @@
+# E-Commerce Vue.js
+
 ## Tentang Project
 
 Antarmuka platform e-commerce berbasis web untuk memudahkan pelanggan dalam berbelanja. Dikembangkan dengan menggunakan **Vue.js** dan **Tailwind CSS** untuk memastikan tampilan yang responsif dan modern. Menggunakan backend yang dibangun menggunakan **Laravel** dan terintegrasi dengan RajaOngkir untuk manajemen pengiriman dan Midtrans untuk manajemen pembayaran untuk memudahkan pelanggan dalam berbelanja. Backend dapat dilihat disini [E-commerce Backend](https://github.com/Yoga-Firmansyah/E-Commerce/tree/main/backend)
